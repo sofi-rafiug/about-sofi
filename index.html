@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nantongo Sofia - Portfolio</title>
+    <title>Mulago High School</title>
     <style>
         * {
             margin: 0;
@@ -12,59 +12,71 @@
             font-family: Arial, sans-serif;
         }
         body {
-            background-color: #f4f4f4;
+            background-color: #f9f9f9;
             color: #333;
             line-height: 1.6;
         }
         .container {
-            max-width: 1000px;
+            max-width: 1100px;
             margin: 0 auto;
             padding: 20px;
             text-align: center;
         }
         header {
-            background: #2c3e50;
+            background: #1abc9c;
             color: white;
-            padding: 40px 0;
+            padding: 50px 0;
         }
         header h1 {
-            font-size: 2.5em;
+            font-size: 2.8em;
             margin-bottom: 10px;
         }
         header p {
-            font-size: 1.2em;
+            font-size: 1.3em;
         }
-        .about, .skills, .contact {
-            padding: 40px 0;
+        .intro, .academics, .events, .contact {
+            padding: 50px 0;
         }
-        .skills ul {
+        .intro h2, .academics h2, .events h2, .contact h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #1abc9c;
+        }
+        .academics ul {
             list-style: none;
             display: flex;
             justify-content: center;
-            gap: 20px;
+            gap: 30px;
             flex-wrap: wrap;
         }
-        .skills li {
-            background: #3498db;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
+        .academics li {
+            background: #ecf0f1;
+            padding: 15px 25px;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+        .events p {
+            margin: 10px 0;
         }
         footer {
-            background: #2c3e50;
+�
+            background: #1abc9c;
             color: white;
             padding: 20px 0;
             position: fixed;
             width: 100%;
             bottom: 0;
         }
-        @media (max-width: 600px) {
+        @media (max-width: 700px) {
             header h1 {
-                font-size: 1.8em;
+                font-size: 2em;
             }
-            .skills ul {
+            .academics ul {
                 flex-direction: column;
                 align-items: center;
+            }
+            .intro, .academics, .events, .contact {
+                padding: 30px 0;
             }
         }
     </style>
@@ -72,41 +84,51 @@
 <body>
     <header>
         <div class="container">
-            <h1>Nantongo Sofia</h1>
-            <p>Graphic & Web Designer</p>
+            <h1>Mulago High School</h1>
+            <p>Empowering Minds, Shaping Futures</p>
         </div>
     </header>
 
-    <section class="about">
+    <section class="intro">
         <div class="container">
-            <h2>About Me</h2>
-            <p>Hi! I’m Nantongo Sofia, a passionate student at Mulago High School specializing in ICT. I excel in graphic design and web design, creating visually appealing and functional solutions.</p>
+            <h2>Welcome</h2>
+            <p>Mulago High School is a leading educational institution dedicated to fostering academic excellence and personal growth. Located in the heart of Uganda, we provide a nurturing environment for students to thrive.</p>
         </div>
     </section>
 
-    <section class="skills">
+    <section class="academics">
         <div class="container">
-            <h2>My Skills</h2>
+            <h2>Academics</h2>
             <ul>
-                <li>Graphic Design</li>
-                <li>Web Design</li>
-                <li>HTML & CSS</li>
-                <li>Responsive Design</li>
+                <li>Science & Technology</li>
+                <li>Arts & Humanities</li>
+                <li>Information & Communication Technology (ICT)</li>
+                <li>Sports & Extracurriculars</li>
             </ul>
+        </div>
+    </section>
+
+    <section class="events">
+        <div class="container">
+            <h2>Upcoming Events</h2>
+            <p><strong>April 10, 2025:</strong> Annual Science Fair</p>
+            <p><strong>May 15, 2025:</strong> Sports Day</p>
+            <p><strong>June 20, 2025:</strong> Graduation Ceremony</p>
         </div>
     </section>
 
     <section class="contact">
         <div class="container">
-            <h2>Contact Me</h2>
-            <p>Email: sofia.nantongo@example.com</p>
-            <p>Phone: +256 123 456 789</p>
+            <h2>Contact Us</h2>
+            <p>Email: info@mulagohighschool.ac.ug</p>
+            <p>Phone: +256 789 123 456</p>
+            <p>Address: Mulago Hill, Kampala, Uganda</p>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Nantongo Sofia. All Rights Reserved.</p>
+            <p>© 2025 Mulago High School. All Rights Reserved.</p>
         </div>
     </footer>
 </body>
